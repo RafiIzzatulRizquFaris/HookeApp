@@ -14,4 +14,6 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="hooke_illustration">Hooke Illustration</string>
+    <string name="hooke_description">Sesuai dengan namanya, Hukum Hooke digagas oleh Robert Hooke yang menyelidiki hubungan antar gaya yang bekerja pada sebuah benda elastis, pegas , atau lainnya agar benda tersebut bisa kembali ke bentuk awal atau tidak melebihi batas elastisitasnya. Dengan ini kita dapat kesimpulan bahwa Hukum Hooke membahas jumlah gaya maksimum yang bisa diberikan pada sebuah benda yang bersifat elastis (umumnya pegas) supaya tidak melewati batas elastisnya dan membuang sifat elastis benda tersebut.</string>
+    <string name="hooke_title">Hooke\'s Law</string>
 </resources>
