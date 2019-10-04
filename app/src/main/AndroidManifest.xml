@@ -11,8 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".GroupActivity">
             <meta-data
-                android:name=".android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".MainActivity"
