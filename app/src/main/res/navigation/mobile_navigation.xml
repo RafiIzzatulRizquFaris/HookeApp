@@ -25,9 +25,9 @@
 
     <fragment
         android:id="@+id/nav_modulus"
-        android:name="com.example.hookeapplication.ui.modulus.ToolsFragment"
+        android:name="com.example.hookeapplication.ui.modulus.ModulusFragment"
         android:label="@string/modulus_formula"
-        tools:layout="@layout/fragment_tools" />
+        tools:layout="@layout/fragment_modulus" />
 
     <fragment
         android:id="@+id/nav_share"

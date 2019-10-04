@@ -10,7 +10,7 @@ public class StrainViewModel extends ViewModel {
 
     public StrainViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("Strain Formula");
     }
 
     public LiveData<String> getText() {

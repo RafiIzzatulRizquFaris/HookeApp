@@ -10,7 +10,7 @@ public class StressViewModel extends ViewModel {
 
     public StressViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("Stress Formula");
     }
 
     public LiveData<String> getText() {
