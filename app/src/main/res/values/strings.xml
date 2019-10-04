@@ -31,4 +31,6 @@
     <string name="stress_n_m">Tegangan (N/m)</string>
     <string name="strain">Regangan</string>
     <string name="hooke_n_m">Konstanta Pegas (N/m)</string>
+    <string name="susunan_seri">Susunan Seri</string>
+    <string name="susunan_paralel">Susunan Paralel</string>
 </resources>
