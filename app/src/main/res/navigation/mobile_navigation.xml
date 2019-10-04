@@ -13,9 +13,9 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.hookeapplication.ui.stress.GalleryFragment"
+        android:name="com.example.hookeapplication.ui.stress.StressFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_stress" />
 
     <fragment
         android:id="@+id/nav_slideshow"
