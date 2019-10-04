@@ -29,7 +29,7 @@ public class StrainFragment extends Fragment {
         textInputEditTextpertambahan = root.findViewById(R.id.edt_pertambahan_strain);
         textInputEditTextpanjang = root.findViewById(R.id.edt_panjang_strain);
         MaterialButton materialButton = root.findViewById(R.id.btn_calculate_strain);
-        materialTextView = root.findViewById(R.id.tv_hasil_stress);
+        materialTextView = root.findViewById(R.id.tv_hasil_strain);
         materialButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
