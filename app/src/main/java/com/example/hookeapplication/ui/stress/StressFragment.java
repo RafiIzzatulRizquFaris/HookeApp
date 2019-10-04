@@ -40,7 +40,7 @@ public class StressFragment extends Fragment {
                     Double luas = Double.valueOf(textInputEditTextluas.getText().toString());
                     Double stress = gaya / luas;
                     String hasil = String.valueOf(stress);
-                    materialTextView.setText(hasil+"N/ m2");
+                    materialTextView.setText(hasil+" N/ m2");
                 }
                 else {
                     materialTextView.setText("Input Cannot be Empty");

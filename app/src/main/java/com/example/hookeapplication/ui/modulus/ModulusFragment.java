@@ -41,7 +41,7 @@ public class ModulusFragment extends Fragment {
                     Double stress = Double.valueOf(textInputEditTextstress.getText().toString());
                     Double modulus = stress / strain;
                     String hasil = String.valueOf(modulus);
-                    materialTextView.setText(hasil+"N/m2");
+                    materialTextView.setText(hasil+" N/m2");
                 }
                 else {
                     materialTextView.setText("Input Cannot be Empty");
