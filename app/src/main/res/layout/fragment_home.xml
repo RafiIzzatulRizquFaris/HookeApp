@@ -50,5 +50,83 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ic_hooke"
             app:layout_constraintVertical_bias="0.0" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_constants_hooke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/hooke_n_m"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_description" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_constants_hooke"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="64dp"
+            android:textSize="14sp"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_constants_hooke"
+            app:layout_constraintTop_toBottomOf="@+id/text_description" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_pertambahan_hooke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/pertambahan_m"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_constants_hooke" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_pertambahan_hooke"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="64dp"
+            android:textSize="14sp"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_pertambahan_hooke"
+            app:layout_constraintTop_toBottomOf="@+id/edt_constants_hooke" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_calculate_hooke"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:shadowColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/calculate"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_pertambahan_hooke" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_hasil_hooke"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_calculate_hooke" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

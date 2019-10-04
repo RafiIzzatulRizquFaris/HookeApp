@@ -27,7 +27,7 @@ public class ModulusFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         ModulusViewModel modulusViewModel = ViewModelProviders.of(this).get(ModulusViewModel.class);
         View root = inflater.inflate(R.layout.fragment_modulus, container, false);
-        final TextView textView = root.findViewById(R.id.title_modulus);
+        final MaterialTextView textView = root.findViewById(R.id.title_modulus);
         textInputEditTextstress = root.findViewById(R.id.edt_stress_modulus);
         textInputEditTextstrain = root.findViewById(R.id.edt_strain_modulus);
         MaterialButton materialButton = root.findViewById(R.id.btn_calculate_modulus);

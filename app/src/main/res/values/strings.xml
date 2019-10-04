@@ -30,4 +30,5 @@
     <string name="modulus_description">Dalam fisika, modulus elastisitas disimbolkan dengan E. Modulus elastisitas menggambarkan suatu perbandingan antara tegangan dengan regangan yang dialami bahan. Dengan kata lain, modulus elastis sebanding dengan tegangan dan berbanding terbalik regangan.</string>
     <string name="stress_n_m">Tegangan (N/m)</string>
     <string name="strain">Regangan</string>
+    <string name="hooke_n_m">Konstanta Pegas (N/m)</string>
 </resources>
