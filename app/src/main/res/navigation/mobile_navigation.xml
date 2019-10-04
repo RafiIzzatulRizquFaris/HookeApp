@@ -13,19 +13,19 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.hookeapplication.ui.gallery.GalleryFragment"
+        android:name="com.example.hookeapplication.ui.stress.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.hookeapplication.ui.slideshow.SlideshowFragment"
+        android:name="com.example.hookeapplication.ui.strain.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_tools"
-        android:name="com.example.hookeapplication.ui.tools.ToolsFragment"
+        android:name="com.example.hookeapplication.ui.modulus.ToolsFragment"
         android:label="@string/menu_tools"
         tools:layout="@layout/fragment_tools" />
 

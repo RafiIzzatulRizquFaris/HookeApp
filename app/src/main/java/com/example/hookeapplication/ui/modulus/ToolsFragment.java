@@ -1,4 +1,4 @@
-package com.example.hookeapplication.ui.tools;
+package com.example.hookeapplication.ui.modulus;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
