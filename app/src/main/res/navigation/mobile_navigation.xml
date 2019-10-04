@@ -12,21 +12,21 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_stress"
         android:name="com.example.hookeapplication.ui.stress.StressFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/stress_formula"
         tools:layout="@layout/fragment_stress" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.hookeapplication.ui.strain.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:id="@+id/nav_strain"
+        android:name="com.example.hookeapplication.ui.strain.StrainFragment"
+        android:label="@string/strain_formula"
         tools:layout="@layout/fragment_strain" />
 
     <fragment
-        android:id="@+id/nav_tools"
+        android:id="@+id/nav_modulus"
         android:name="com.example.hookeapplication.ui.modulus.ToolsFragment"
-        android:label="@string/menu_tools"
+        android:label="@string/modulus_formula"
         tools:layout="@layout/fragment_tools" />
 
     <fragment

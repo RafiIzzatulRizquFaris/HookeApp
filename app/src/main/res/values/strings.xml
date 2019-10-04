@@ -21,4 +21,10 @@
     <string name="gaya_n">Gaya (N)</string>
     <string name="luas_m2">Luas (m2)</string>
     <string name="calculate">Calculate</string>
+    <string name="strain_formula">Strain Formula</string>
+    <string name="strain_description">Regangan adalah suatu perbandingan antara pertambahan panjang kawat dalam x meter dengan panjang awal kawat dalam x meter. Regangan ini bisa terjadi dikarenakan gaya yang diberikan pada benda ataupun kawat tersebut dihilangkan, sehingga kawat kembali ke bentuk awal.</string>
+    <string name="pertambahan_m">Pertambahan (m)</string>
+    <string name="panjang_m">Panjang (m)</string>
+    <string name="modulus_formula">Modulus Formula</string>
+    <string name="communicate">Communicate</string>
 </resources>
