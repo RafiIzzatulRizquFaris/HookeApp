@@ -1,14 +1,14 @@
-package com.example.hookeapplication.ui.share;
+package com.example.hookeapplication.ui.series;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class ShareViewModel extends ViewModel {
+public class SeriesViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public ShareViewModel() {
+    public SeriesViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is share fragment");
     }

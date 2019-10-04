@@ -1,4 +1,4 @@
-package com.example.hookeapplication.ui.share;
+package com.example.hookeapplication.ui.series;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.hookeapplication.R;
 
-public class ShareFragment extends Fragment {
+public class SeriesFragment extends Fragment {
 
-    private ShareViewModel shareViewModel;
+    private SeriesViewModel seriesViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        shareViewModel =
-                ViewModelProviders.of(this).get(ShareViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_share, container, false);
+        seriesViewModel =
+                ViewModelProviders.of(this).get(SeriesViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_series, container, false);
         final TextView textView = root.findViewById(R.id.text_share);
-        shareViewModel.getText().observe(this, new Observer<String>() {
+        seriesViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

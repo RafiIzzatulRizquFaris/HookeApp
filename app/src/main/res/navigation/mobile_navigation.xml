@@ -31,9 +31,9 @@
 
     <fragment
         android:id="@+id/nav_series"
-        android:name="com.example.hookeapplication.ui.share.ShareFragment"
+        android:name="com.example.hookeapplication.ui.series.SeriesFragment"
         android:label="@string/susunan_seri"
-        tools:layout="@layout/fragment_share" />
+        tools:layout="@layout/fragment_series" />
 
     <fragment
         android:id="@+id/nav_parallel"
