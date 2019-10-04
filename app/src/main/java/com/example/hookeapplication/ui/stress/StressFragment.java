@@ -1,5 +1,6 @@
 package com.example.hookeapplication.ui.stress;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -31,13 +32,19 @@ public class StressFragment extends Fragment {
         MaterialButton materialButton = root.findViewById(R.id.btn_calculate_stress);
         materialTextView = root.findViewById(R.id.tv_hasil_stress);
         materialButton.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
-                int gaya = Integer.parseInt(textInputEditTextgaya.getText().toString());
-                int luas = Integer.parseInt(textInputEditTextluas.getText().toString());
-                Double stress = (double) gaya / (double) luas;
-                String hasil = String.valueOf(stress);
-                materialTextView.setText(hasil);
+                if (textInputEditTextgaya.length() > 0 && textInputEditTextluas.length() > 0) {
+                    int gaya = Integer.parseInt(textInputEditTextgaya.getText().toString());
+                    int luas = Integer.parseInt(textInputEditTextluas.getText().toString());
+                    Double stress = (double) gaya / (double) luas;
+                    String hasil = String.valueOf(stress);
+                    materialTextView.setText(hasil+"N/ m2");
+                }
+                else {
+                    materialTextView.setText("Input Cannot be Empty");
+                }
             }
         });
 

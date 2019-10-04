@@ -1,12 +1,13 @@
 package com.example.hookeapplication.ui.strain;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
@@ -31,13 +32,19 @@ public class StrainFragment extends Fragment {
         MaterialButton materialButton = root.findViewById(R.id.btn_calculate_strain);
         materialTextView = root.findViewById(R.id.tv_hasil_strain);
         materialButton.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
-                int pertambahan = Integer.parseInt(textInputEditTextpertambahan.getText().toString());
-                int panjang = Integer.parseInt(textInputEditTextpanjang.getText().toString());
-                Double strain = (double) pertambahan / (double) panjang;
-                String hasil = String.valueOf(strain);
-                materialTextView.setText(hasil);
+                if (textInputEditTextpanjang.length() > 0 && textInputEditTextpertambahan.length() > 0) {
+                    int pertambahan = Integer.parseInt(textInputEditTextpertambahan.getText().toString());
+                    int panjang = Integer.parseInt(textInputEditTextpanjang.getText().toString());
+                    Double strain = (double) pertambahan / (double) panjang;
+                    String hasil = String.valueOf(strain);
+                    materialTextView.setText(hasil);
+                }
+                else {
+                    materialTextView.setText("Input Cannot be Empty");
+                }
             }
         });
         strainViewModel.getText().observe(this, new Observer<String>() {
