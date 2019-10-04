@@ -10,15 +10,15 @@
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_stress"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_bubble_chart_black_24dp"
             android:title="@string/stress_formula" />
         <item
             android:id="@+id/nav_strain"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_bubble_chart_black_24dp"
             android:title="@string/strain_formula" />
         <item
             android:id="@+id/nav_modulus"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_bubble_chart_black_24dp"
             android:title="@string/modulus_formula" />
     </group>
 
