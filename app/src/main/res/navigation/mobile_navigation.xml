@@ -21,7 +21,7 @@
         android:id="@+id/nav_slideshow"
         android:name="com.example.hookeapplication.ui.strain.SlideshowFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_strain" />
 
     <fragment
         android:id="@+id/nav_tools"
