@@ -36,9 +36,9 @@ public class StrainFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 if (textInputEditTextpanjang.length() > 0 && textInputEditTextpertambahan.length() > 0) {
-                    int pertambahan = Integer.parseInt(textInputEditTextpertambahan.getText().toString());
-                    int panjang = Integer.parseInt(textInputEditTextpanjang.getText().toString());
-                    Double strain = (double) pertambahan / (double) panjang;
+                    Double pertambahan = Double.valueOf(textInputEditTextpertambahan.getText().toString());
+                    Double panjang = Double.valueOf(textInputEditTextpanjang.getText().toString());
+                    Double strain = pertambahan / panjang;
                     String hasil = String.valueOf(strain);
                     materialTextView.setText(hasil);
                 }

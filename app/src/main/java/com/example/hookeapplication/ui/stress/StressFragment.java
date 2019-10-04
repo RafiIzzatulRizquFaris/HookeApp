@@ -36,9 +36,9 @@ public class StressFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 if (textInputEditTextgaya.length() > 0 && textInputEditTextluas.length() > 0) {
-                    int gaya = Integer.parseInt(textInputEditTextgaya.getText().toString());
-                    int luas = Integer.parseInt(textInputEditTextluas.getText().toString());
-                    Double stress = (double) gaya / (double) luas;
+                    Double gaya = Double.valueOf(textInputEditTextgaya.getText().toString());
+                    Double luas = Double.valueOf(textInputEditTextluas.getText().toString());
+                    Double stress = gaya / luas;
                     String hasil = String.valueOf(stress);
                     materialTextView.setText(hasil+"N/ m2");
                 }
