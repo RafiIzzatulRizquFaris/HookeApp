@@ -35,4 +35,5 @@
     <string name="susunan_paralel">Susunan Paralel</string>
     <string name="series_description">Jika dua buah pegas yang mempunyai tetapan pegas yang sama dirangkaikan secara seri, maka panjang pegas menjadi 2x. Oleh sebab itu, persamaan pegasnya yaitu sebagai berikut :</string>
     <string name="constats_n_m">Konstanta pegas (N/m)</string>
+    <string name="parallel_description">Jika pegas disusun secara paralel, panjang pegas akan tetap seperti semula, sedangkan luas penampangnya menjadi lebih 2x dari semula bila pegas disusun 2 buah. Adapun persamaan pegas untuk dua pegas yang disusun secara paralel, yaitu :</string>
 </resources>
