@@ -16,14 +16,11 @@ import com.example.hookeapplication.R;
 
 public class SeriesFragment extends Fragment {
 
-    private SeriesViewModel seriesViewModel;
-
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        seriesViewModel =
-                ViewModelProviders.of(this).get(SeriesViewModel.class);
+        SeriesViewModel seriesViewModel = ViewModelProviders.of(this).get(SeriesViewModel.class);
         View root = inflater.inflate(R.layout.fragment_series, container, false);
-        final TextView textView = root.findViewById(R.id.text_share);
+        final TextView textView = root.findViewById(R.id.title_series);
         seriesViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

@@ -10,7 +10,7 @@ public class SeriesViewModel extends ViewModel {
 
     public SeriesViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is share fragment");
+        mText.setValue("Susunan Seri");
     }
 
     public LiveData<String> getText() {
