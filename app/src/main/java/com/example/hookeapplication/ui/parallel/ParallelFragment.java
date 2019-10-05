@@ -1,4 +1,4 @@
-package com.example.hookeapplication.ui.send;
+package com.example.hookeapplication.ui.parallel;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.hookeapplication.R;
 
-public class SendFragment extends Fragment {
+public class ParallelFragment extends Fragment {
 
-    private SendViewModel sendViewModel;
+    private ParallelViewModel parallelViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        sendViewModel =
-                ViewModelProviders.of(this).get(SendViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_send, container, false);
+        parallelViewModel =
+                ViewModelProviders.of(this).get(ParallelViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_parallel, container, false);
         final TextView textView = root.findViewById(R.id.text_send);
-        sendViewModel.getText().observe(this, new Observer<String>() {
+        parallelViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

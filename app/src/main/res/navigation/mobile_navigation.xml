@@ -37,7 +37,7 @@
 
     <fragment
         android:id="@+id/nav_parallel"
-        android:name="com.example.hookeapplication.ui.send.SendFragment"
+        android:name="com.example.hookeapplication.ui.parallel.ParallelFragment"
         android:label="@string/susunan_paralel"
-        tools:layout="@layout/fragment_send" />
+        tools:layout="@layout/fragment_parallel" />
 </navigation>
