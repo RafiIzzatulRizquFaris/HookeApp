@@ -33,4 +33,6 @@
     <string name="hooke_n_m">Konstanta Pegas (N/m)</string>
     <string name="susunan_seri">Susunan Seri</string>
     <string name="susunan_paralel">Susunan Paralel</string>
+    <string name="series_description">Jika dua buah pegas yang mempunyai tetapan pegas yang sama dirangkaikan secara seri, maka panjang pegas menjadi 2x. Oleh sebab itu, persamaan pegasnya yaitu sebagai berikut :</string>
+    <string name="constats_n_m">Konstanta pegas (N/m)</string>
 </resources>
