@@ -10,7 +10,7 @@ public class ParallelViewModel extends ViewModel {
 
     public ParallelViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is send fragment");
+        mText.setValue("Susunan Paralel");
     }
 
     public LiveData<String> getText() {
