@@ -22,7 +22,7 @@
             android:title="@string/modulus_formula" />
     </group>
 
-    <item android:title="@string/communicate">
+    <item android:title="@string/spring">
         <menu>
             <item
                 android:id="@+id/nav_series"
